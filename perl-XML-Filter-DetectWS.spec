@@ -28,7 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This a PerlSAX filter that detects which character data contains
 ignorable whitespace and optionally filters it.
 
-#%description -l pl
+%description -l pl
+To jest filtr PerlSAX wykrywaj±cy dane znakowe zawieraj±ce ignorowalne
+spacje i opcjonalnie filtruj±cy je.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
