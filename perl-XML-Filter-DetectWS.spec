@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-DetectWS
-Summary:	XML::Filter::DetectWS - 
-Summary(pl):	XML::Filter::DetectWS - 
+Summary:	XML::Filter::DetectWS - a PerlSAX filter that detects ignorable whitespace
+Summary(pl):	XML::Filter::DetectWS - filtr PerlSAX wykrywaj±cy ignorowalne spacje
 Name:		perl-XML-Filter-DetectWS
 Version:	0.01
 Release:	1
@@ -18,13 +18,15 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-XML-UM
+BuildRequires:	perl-XML-Filter-SAXT
 %endif
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This a PerlSAX filter that detects which character data contains
+ignorable whitespace and optionally filters it.
 
 #%description -l pl
 
