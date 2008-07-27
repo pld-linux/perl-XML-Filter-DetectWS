@@ -9,7 +9,7 @@ Summary:	XML::Filter::DetectWS - a PerlSAX filter that detects ignorable whitesp
 Summary(pl.UTF-8):	XML::Filter::DetectWS - filtr PerlSAX wykrywający ignorowalne spacje
 Name:		perl-XML-Filter-DetectWS
 Version:	0.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
