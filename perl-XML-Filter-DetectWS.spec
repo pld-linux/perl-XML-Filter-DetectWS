@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-DetectWS
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::DetectWS - a PerlSAX filter that detects ignorable whitespace
 Summary(pl.UTF-8):	XML::Filter::DetectWS - filtr PerlSAX wykrywający ignorowalne spacje
 Name:		perl-XML-Filter-DetectWS
